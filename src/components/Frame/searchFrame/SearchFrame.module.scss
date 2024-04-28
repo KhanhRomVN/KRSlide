@@ -1,0 +1,17 @@
+.frameWrapper {
+  width: 600px;
+  background-color: #fff;
+}
+
+.frameContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.frameItem {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}

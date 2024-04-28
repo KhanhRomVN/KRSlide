@@ -1,0 +1,69 @@
+.frameWrapper {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.frameTitle {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 10px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+._1_row_4_col {
+  display: flex;
+  gap: 20px;
+}
+
+._2_row_3_col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+._1_row_3_col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.frameItem {
+  border: #8e8e8e solid 1px;
+  border-radius: 4px;
+}
+
+.frameImage {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.frameImage img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.frameContent {
+  text-align: start;
+  box-sizing: border-box;
+  padding: 0px 10px 10px 10px;
+}
+
+.frameName {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 5px;
+  color: #121212;
+}
+
+.frameDesciption {
+  color: #5b5b5b;
+  font-size: 14px;
+}
+
+.frameInfoNumber {
+  font-size: 14px;
+  color: #5b5b5b;
+}

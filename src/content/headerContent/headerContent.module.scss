@@ -1,0 +1,64 @@
+.header {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  /* */
+  display: flex;
+  justify-content: space-between;
+  /* */
+  box-sizing: border-box;
+}
+
+.showMiddle {
+  background-color: rgb(255, 255, 255); /* Màu nền của header khi middle được hiển thị */
+}
+
+.showMiddleContent {
+  display: block;
+}
+
+/* Left Header */
+.left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  color: #424242;
+}
+
+.logo {
+  height: 60%;
+  padding-bottom: 5px;
+}
+
+.LeftContentMenu {
+  display: flex;
+  gap: 20px;
+}
+
+.LeftContentItem {
+  font-weight: 550;
+  font-size: 14px;
+}
+
+/* Middle Header */
+.middle {
+  display: none; /* Ẩn middle content mặc định */
+  align-items: center;
+}
+
+/* Right Header */
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.RightContentMenu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.RightContentItem {
+  font-weight: 550;
+  font-size: 14px;
+}

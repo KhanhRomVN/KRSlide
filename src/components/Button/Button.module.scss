@@ -1,0 +1,123 @@
+.button {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.normalSize {
+  padding: 2px 8px;
+  font-size: 16px;
+}
+.bigSize {
+  padding: 8px;
+}
+
+.withColorBackground {
+  background-color: rgb(30, 163, 201);
+  color: #fff;
+}
+
+.noColorBackground {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.withOutline {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.withShadow {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hover:hover {
+  background-color: black;
+}
+
+/* New Classes */
+.blueText {
+  color: #0047ab;
+}
+
+.blackText {
+  color: black;
+}
+
+.whiteText {
+  color: white;
+}
+
+.grayText {
+  color: gray;
+}
+
+.noColorOutline {
+  border: none;
+}
+
+.blueOutline {
+  border: 1px solid blue;
+}
+
+.blackOutline {
+  border: 1px solid black;
+}
+
+.whiteOutline {
+  border: 1px solid white;
+}
+
+.grayOutline {
+  border: 1px solid gray;
+}
+
+/* Hover Text Color */
+.blueHoverText:hover {
+  color: #0047ab;
+}
+
+.blackHoverText:hover {
+  color: black;
+}
+
+.whiteHoverText:hover {
+  color: white;
+}
+
+.grayHoverText:hover {
+  color: gray;
+}
+
+/* Background Hover */
+.blackHoverBackground:hover {
+  background-color: black;
+}
+
+.blueHoverBackground:hover {
+  background-color: #0047ab;
+}
+
+.whiteHoverBackground:hover {
+  background-color: white;
+}
+
+.grayHoverBackground:hover {
+  background-color: gray;
+}
+
+/* Outline Hover */
+.blackHoverOutline:hover {
+  border: 2px solid black;
+}
+
+.blueHoverOutline:hover {
+  border: 2px solid blue;
+}
+
+.whiteHoverOutline:hover {
+  border: 2px solid white;
+}
+
+.grayHoverOutline:hover {
+  border: 2px solid gray;
+}
